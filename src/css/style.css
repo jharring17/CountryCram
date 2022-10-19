@@ -31,6 +31,12 @@
     font-size: 15px;
 }
 
+.header-right a:hover {
+    background-color: #ddd;
+    color: black;
+    padding: 8px;
+}
+
 .game-board {
     display: flex;
     flex-direction: row;
