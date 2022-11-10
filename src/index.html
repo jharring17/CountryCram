@@ -13,12 +13,15 @@
 <body>
     <!-- Head of the webpage. -->
     <div class="header">
-        <a class="company-logo">CountryCram</a>
-        <!-- Links for the other pages. -->
+        <img class="icon" src="images/countrycram-icon.jpeg">
+        <a class="popup" onclick="myFunction()">How to play
+            <script src="/src/js/popup.js"></script>
+            <span class="popuptext" id="myPopup">Select a game board to begin. Then, match the flag to its
+                country.</span>
+        </a>
         <div class="header-right">
-            <a href="#howtoplay">How to Play</a>
-            <a href="#contact">Contact</a>
             <a href="#about">About</a>
+            <a href="#rate">Rate your Experience</a>
         </div>
     </div>
     <!-- Marquee to display flags. -->
@@ -26,7 +29,7 @@
         this is a simple scrolling text!
         <script src="/src/js/marquee.js"></script>
     </div> -->
-    <div class="select-game">Learn the flags of the world now!</div>
+    <!-- <div class="select-game">Learning is an adventure!</div> -->
     <!-- The game board for user selection. -->
     <section class="game-board">
         <!-- North America game board. -->
@@ -85,5 +88,11 @@
         </div>
     </section>
 </body>
+<footer class="footer">
+    <div class="footer-text">Learning is an adventure.</div>
+    <a href="https://github.com/jharring17/CountryCram" class="github-text">
+        <img class="github-icon" src="images/asia.png">
+    </a>
+</footer>
 
 </html>
