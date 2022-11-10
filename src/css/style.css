@@ -197,9 +197,7 @@
 }
 
 .world-images:hover {
-    width: 250px;
-    height: 250px;
-    background: url("./images/europe.png") no-repeat;
+    box-shadow: 20px 20px 5px lightblue;
 }
 
 .projTxt {
