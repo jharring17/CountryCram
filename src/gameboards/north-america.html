@@ -7,16 +7,17 @@
     <link rel="shortcut icon"
         href="https://t3.ftcdn.net/jpg/01/62/59/04/360_F_162590489_5IcesYmlOK0RC4T4r5lydft8aQmpCwI7.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/level-style.css">
+    <link rel="stylesheet" href="/src/css/level-style.css">
 </head>
 
 <body>
-    <div class="level">
-        <img id="flag-image" src="/src/images/countries/NorthAmerica/AntiguaandBarbuda.jpg" />
-        <button id="option0" onclick="gameLogic(currentLevel, userChoice)">x</button>
-        <button id="option1" onclick="gameLogic(currentLevel, userChoice)">x</button>
-        <button id="option2" onclick="gameLogic(currentLevel, userChoice)">x</button>
-        <button id="option3" onclick="gameLogic(currentLevel, userChoice)">x</button>
+    <a class="back" href="/src/index.html">Back to Home</a>
+    <img id="flag-image" src="/src/images/countries/NorthAmerica/AntiguaandBarbuda.jpg" />
+    <div class="button-container">
+        <button id="option0" onclick="gameLogic(currentLevel, 'option0')">x</button>
+        <button id="option1" onclick="gameLogic(currentLevel, 'option1')">x</button>
+        <button id="option2" onclick="gameLogic(currentLevel, 'option2')">x</button>
+        <button id="option3" onclick="gameLogic(currentLevel, 'option3')">x</button>
     </div>
     <script>
 
@@ -35,6 +36,7 @@
                 options: ["United States", "Mexico", "Canada", "Bahamas"],
             },
             {
+                // Level 3
                 image: "/src/images/countries/NorthAmerica/Barbados.jpg",
                 answer: "Barbados",
                 options: ["United States", "Barbados", "Canada", "Bahamas"],
@@ -42,28 +44,33 @@
         ]
         let currentLevel = 0
         gameLogic(currentLevel)
+        // TODO: Make a way to get random elements from array in answer selection.
 
         function gameLogic(level, userChoice) {
-            // TODO: Make a way to get random elements from array in answer selection.
+            // This populates the button options.
             for (let i = 0; i < questions[level].options.length; i++) {
                 // Check if options are loaded.
                 if (document.getElementById(`option${i}`)) {
                     // For each optionID tag, place the corresponding option in it.
                     document.getElementById(`option${i}`).innerText = questions[level].options[i]
                 }
+                // Gets the button for the answerPosition
+                if (questions[level].options[i] == questions[level].answer) {
+                    // Used for the comparison.
+                    answerPosition = i
+                    console.log(answerPosition)
+                }
             }
             // Sets the image for flag.
             document.getElementById(`flag-image`).src = questions[level].image
 
-            // check if they're right
-            // answer = option selected
-            userInput = element.addEventListener
-
-
-            // go to next level
-            currentLevel++
+            // Checks if the userChoice is the answer.
+            console.log(userChoice)
+            console.log('option' + [answerPosition])
+            if (userChoice == ('option' + [answerPosition])) {
+                currentLevel++
+            }  // What if they suck at the game? Just remain in the same place for now.
         }
-
     </script>
 
 
