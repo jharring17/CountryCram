@@ -1,5 +1,5 @@
 ## CountryCram
-A learning website to improve geographical and flag knowledge in six major regions.
+A learning website to increase flag knowledge in six major regions.
 
 ![Alt text](/src/images/countrycram-icon.jpeg)
 
