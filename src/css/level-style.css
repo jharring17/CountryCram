@@ -1,4 +1,9 @@
+.level {
+    background-color: rgb;
+}
+
 .back {
+    background-color: lightgreen;
     font-family: Verdana;
     font-size: 20px;
     text-decoration: none;
@@ -6,33 +11,44 @@
     padding: 10px;
     border: 5px solid black;
     border-radius: 15px;
+    box-shadow: 5px 5px 5px lightblue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
     box-shadow: 10px 10px 5px lightblue;
 }
 
-.back:link {
+a:focus {
     text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
-.back:visited {
+a:active {
     text-decoration: none;
+    color: rgb(0, 0, 0)
 }
 
 .back:hover {
-    text-decoration: none;
+    background-color: lightgrey;
 }
 
-.back:active {
-    text-decoration: none;
+h1 {
+    font-family: Verdana;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
 }
 
 #flag-image {
     width: 450px;
     height: 300px;
-    border: 10px solid rgb(255, 255, 255);
+    border: 10px solid rgb(0, 0, 0);
     border-radius: 30px;
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -42,12 +58,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 115vh;
+    height: 105vh;
 }
 
 button {
+    background-color: lightgreen;
     font-family: Verdana;
-    font-size: 25px;
+    font-size: 40px;
     text-decoration: none;
     display: inline-block;
     padding: 10px;
@@ -55,8 +72,10 @@ button {
     border-radius: 15px;
     box-shadow: 5px 5px 5px lightblue;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: lightgrey;
+    box-shadow: 10px 10px 5px lightblue;
 }

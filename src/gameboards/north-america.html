@@ -12,12 +12,15 @@
 
 <body>
     <a class="back" href="/src/index.html">Back to Home</a>
-    <img id="flag-image" src="/src/images/countries/NorthAmerica/AntiguaandBarbuda.jpg" />
-    <div class="button-container">
-        <button id="option0" onclick="gameLogic(currentLevel, 'option0')">x</button>
-        <button id="option1" onclick="gameLogic(currentLevel, 'option1')">x</button>
-        <button id="option2" onclick="gameLogic(currentLevel, 'option2')">x</button>
-        <button id="option3" onclick="gameLogic(currentLevel, 'option3')">x</button>
+    <div class="level">
+        <h1>What country's flag is this?</h1>
+        <img id="flag-image" src="/src/images/countries/NorthAmerica/AntiguaandBarbuda.jpg" />
+        <div class="button-container">
+            <button id="option0" onclick="gameLogic(currentLevel, 'option0')">x</button>
+            <button id="option1" onclick="gameLogic(currentLevel, 'option1')">x</button>
+            <button id="option2" onclick="gameLogic(currentLevel, 'option2')">x</button>
+            <button id="option3" onclick="gameLogic(currentLevel, 'option3')">x</button>
+        </div>
     </div>
     <script>
 
@@ -69,7 +72,10 @@
             console.log('option' + [answerPosition])
             if (userChoice == ('option' + [answerPosition])) {
                 currentLevel++
-            }  // What if they suck at the game? Just remain in the same place for now.
+            }
+            // else {
+            //     userChoice.style.backgroundColor = 'red';
+            // } // What if they suck at the game? Just remain in the same place for now.
         }
     </script>
 
