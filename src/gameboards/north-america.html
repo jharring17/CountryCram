@@ -46,7 +46,7 @@
             }
         ]
         let currentLevel = 0
-        gameLogic(currentLevel)
+        gameLogic(currentLevel, null)
         // TODO: Make a way to get random elements from array in answer selection.
 
         function gameLogic(level, userChoice) {
@@ -66,16 +66,20 @@
             }
             // Sets the image for flag.
             document.getElementById(`flag-image`).src = questions[level].image
+            // const btn = document.getElementById(userChoice);
 
-            // Checks if the userChoice is the answer.
-            console.log(userChoice)
-            console.log('option' + [answerPosition])
+            // If the userChoice is correct, iterate the level.
             if (userChoice == ('option' + [answerPosition])) {
                 currentLevel++
             }
             // else {
-            //     userChoice.style.backgroundColor = 'red';
-            // } // What if they suck at the game? Just remain in the same place for now.
+            //     // If wrong selection, make choice red and stay on current level.
+            //     btn.addEventListener('click', function onClick() {
+            //         btn.style.backgroundColor = 'red';
+            //     })
+            // }
+            // Load the function for single click comparisons.
+            gameLogic(currentLevel, null)
         }
     </script>
 
