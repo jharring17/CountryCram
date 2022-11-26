@@ -1,0 +1,86 @@
+[
+    {
+        "img": "Albania.jpg",
+        "options": [
+            "Finland",
+            "Italy",
+            "Andorra",
+            "Albania"
+        ],
+        "answer": "Albania"
+    },
+    {
+        "img": "Andorra.jpg",
+        "options": [
+            "Greece",
+            "Iceland",
+            "Andorra",
+            "Hungary"
+        ],
+        "answer": "Andorra"
+    },
+    {
+        "img": "Austria.jpg",
+        "options": [
+            "Austria",
+            "Belarus",
+            "Estonia",
+            "Ireland"
+        ],
+        "answer": "Austria"
+
+    },
+    {
+        "img": "Belarus.jpg",
+        "options": [
+            "Croatia",
+            "Iceland",
+            "Belarus",
+            "Hungary"
+        ],
+        "answer": "Belarus"
+
+    },
+    {
+        "img": "Belgium.jpg",
+        "options": [
+            "Belgium",
+            "Belarus",
+            "Germany",
+            "Finland"
+        ],
+        "answer": "Belgium"
+
+    },
+    {
+        "img": "BosniaandHerzegovina.jpg",
+        "options": [
+            "BosniaandHerzegovina",
+            "Italy",
+            "Andorra",
+            "Albania"
+        ],
+        "answer": "BosniaandHerzegovina"
+    },
+    {
+        "img": "Bulgaria.jpg",
+        "options": [
+            "Albania",
+            "Iceland",
+            "Andorra",
+            "Bulgaria"
+        ],
+        "answer": "Bulgaria"
+    },
+    {
+        "img": "Croatia.jpg",
+        "options": [
+            "Estonia",
+            "Hungary",
+            "Croatia",
+            "Moldova"
+        ],
+        "answer": "Croatia"
+
+    }
+]

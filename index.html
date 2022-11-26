@@ -7,13 +7,13 @@
     <link rel="shortcut icon"
         href="https://t3.ftcdn.net/jpg/01/62/59/04/360_F_162590489_5IcesYmlOK0RC4T4r5lydft8aQmpCwI7.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
 <body>
     <!-- Head of the webpage. -->
     <div class="header">
-        <img class="icon" src="images/countrycram-icon.jpeg">
+        <img class="icon" src="/src/images/countrycram-icon.jpeg">
         <a class="popup" onclick="myFunction()">How to play
             <script src="/src/js/popup.js"></script>
             <span class="popuptext" id="myPopup">Select a game board to begin. Then, match the flag to its
@@ -21,15 +21,21 @@
         </a>
         <div class="header-right">
             <a href="https://github.com/jharring17/CountryCram">GitHub</a>
-            <a href="https://forms.gle/HpP9jfGCrUfBePxQ7">Rate your Experience</a>
+            <a href="#rate">Rate your Experience</a>
         </div>
     </div>
+    <!-- Marquee to display flags. -->
+    <!-- <div id="ticker">
+        this is a simple scrolling text!
+        <script src="/src/js/marquee.js"></script>
+    </div> -->
+    <!-- <div class="select-game">Learning is an adventure!</div> -->
     <!-- The game board for user selection. -->
     <section class="game-board">
         <!-- North America game board. -->
         <div class="game">
-            <a href="/src/gameboards/north-america.html">
-                <img class="world-images" src="images/north-america.png">
+            <a href="./gameboards/north-america.html">
+                <img class="world-images" src="/src/images/north-america.png">
                 <div class="projTxt">
                     <h2 class="projName">North America</h2>
                 </div>
@@ -38,7 +44,7 @@
         <!-- South America game board. -->
         <div class="game">
             <a href="https://github.com/jharring17/StevensAssignments/tree/main/CS-392/hw7">
-                <img class="world-images" src="images/south-america.png">
+                <img class="world-images" src="/src/images/south-america.png">
                 <div class="projTxt">
                     <h2 class="projName">South America</h2>
                 </div>
@@ -46,8 +52,8 @@
         </div>
         <!-- Europe game board. -->
         <div class="game">
-            <a href="https://github.com/jharring17/StevensAssignments/tree/main/CS-392/hw7">
-                <img class="world-images" src="images/europe.png">
+            <a href="./gameboards.html">
+                <img class="world-images" src="/src/images/europe.png">
                 <div class="projTxt">
                     <h2 class="projName">Europe</h2>
                 </div>
@@ -56,7 +62,7 @@
         <!-- Africa game board. -->
         <div class="game">
             <a href="https://github.com/jharring17/StevensAssignments/tree/main/CS-392/hw7">
-                <img class="world-images" src="images/africa.png">
+                <img class="world-images" src="/src/images/africa.png">
                 <div class="projTxt">
                     <h2 class="projName">Africa</h2>
                 </div>
@@ -65,7 +71,7 @@
         <!-- Asia game board. -->
         <div class="game">
             <a href="https://github.com/jharring17/StevensAssignments/tree/main/CS-392/hw7">
-                <img class="world-images" src="images/asia.png">
+                <img class="world-images" src="/src/images/asia.png">
                 <div class="projTxt">
                     <h2 class="projName">Asia</h2>
                 </div>
@@ -74,7 +80,7 @@
         <!-- Australia game board. -->
         <div class="game">
             <a href="https://github.com/jharring17/StevensAssignments/tree/main/CS-392/hw7">
-                <img class="world-images" src="images/australia.png">
+                <img class="world-images" src="/src/images/australia.png">
                 <div class="projTxt">
                     <h2 class="projName">Australia</h2>
                 </div>
@@ -85,7 +91,7 @@
 <footer class="footer">
     <div class="footer-text">CountryCram - Learning is an adventure!</div>
     <a href="https://github.com/jharring17/CountryCram" class="github-text">
-        <img class="github-icon" src="images/asia.png">
+        <img class="github-icon" src="/src/images/asia.png">
     </a>
 </footer>
 

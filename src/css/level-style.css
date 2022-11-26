@@ -41,6 +41,16 @@ h1 {
     font-weight: bold;
 }
 
+.result {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 105vh;
+
+}
+
+
 #flag-image {
     width: 450px;
     height: 300px;
@@ -79,3 +89,16 @@ button:hover {
     background-color: lightgrey;
     box-shadow: 10px 10px 5px lightblue;
 }
+
+button.selected {
+    background-color: lightgray;
+}
+
+button.right {
+    background-color: green;
+}
+
+button.wrong {
+    background-color: red;
+}
+
