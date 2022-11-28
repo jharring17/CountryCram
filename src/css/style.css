@@ -1,47 +1,9 @@
-/* .header {
-    width: 98.5%;
-    padding: 5px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-family: Verdana;
-    font-size: 20px;
-    display: inline-flex;
-    flex-direction: row;
-    border: 5px solid white;
-    border-radius: 20px;
-    overflow: hidden;
-} */
-/* 
-.header a {
-    float: left;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    padding: 15px;
-    text-decoration: none;
-    line-height: 28px;
-    border-radius: 20px;
+body {
+    min-width: 200px;
+    min-height: 200px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
-
-.company-logo {
-    font-size: 40px;
-} */
-
-/* .header-right a:active {
-    background-color: #ddd;
-    color: black;
-    padding: 12px;
-    align-items: center;
-    align-content: center;
-} */
-
-/* 
-#ticker {
-    padding: 10px;
-    align-content: center;
-    justify-content: center;
-} */
 
 /* Style the header with a grey background and some padding */
 .header {
@@ -269,3 +231,5 @@ a:active {
     text-decoration: none;
     margin-left: auto;
 }
+
+/* TODO: Add breakpoints for 400px, 800px, 1200px, 1600px */

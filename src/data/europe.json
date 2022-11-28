@@ -28,7 +28,6 @@
             "Ireland"
         ],
         "answer": "Austria"
-
     },
     {
         "img": "Belarus.jpg",
@@ -39,7 +38,6 @@
             "Hungary"
         ],
         "answer": "Belarus"
-
     },
     {
         "img": "Belgium.jpg",
@@ -50,17 +48,16 @@
             "Finland"
         ],
         "answer": "Belgium"
-
     },
     {
         "img": "BosniaandHerzegovina.jpg",
         "options": [
-            "BosniaandHerzegovina",
+            "Bosnia and Herzegovina",
             "Italy",
             "Andorra",
             "Albania"
         ],
-        "answer": "BosniaandHerzegovina"
+        "answer": "Bosnia and Herzegovina"
     },
     {
         "img": "Bulgaria.jpg",
@@ -81,6 +78,5 @@
             "Moldova"
         ],
         "answer": "Croatia"
-
     }
 ]

@@ -2,27 +2,25 @@ let flagImgDiv = document.querySelector('.flag-img');
 let flagImg = document.querySelector('.flag-img img');
 let flagOptions = document.querySelector('.button-container');
 let flagArray = document.querySelectorAll('.button-container button');
-
+let questions
 let resultDiv = document.querySelector('.result');
 let score = document.querySelector('.result .score span');
 
 // let continent = document.querySelector('.body')
 
 let index = 0;
-let numOfCorrect= 0;
-
-function newGame() {
+let numOfCorrect = 0;
+let questionNum = 5;
+function newGame(country) {
     let request = new XMLHttpRequest();
     request.onreadystatechange = function () {
-        if (this.readyState === 4 && this.status === 200) { 
-            let questions = JSON.parse(this.responseText);
-
+        if (this.readyState === 4 && this.status === 200) {
+            questions = JSON.parse(this.responseText);
             //ToDo: add fuction to select num of questions
-            let questionNum = 5;
             // Get a random index.
             questions = questions.sort(() => Math.random() - Math.random()).slice(0, questionNum);
             //Add Questions Data
-            addData(questions[index], questionNum);
+            addData(questions[index], questionNum, country);
 
             flagArray.forEach(button => {
                 button.addEventListener('click', () => {
@@ -36,16 +34,13 @@ function newGame() {
                     }, 500);
 
                     setTimeout(() => {
-                        flagImg.src = '';
-                        button.classList.remove('selected');
-                        button.classList.remove('right');
-                        button.classList.remove('wrong');
-                        addData(questions[index], questionNum);
+                        let next = document.getElementById('next')
+                        next.classList.remove('hidden')
                     }, 1000);
 
                     setTimeout(() => {
                         getResult(questionNum);
-                    }, 1002);
+                    }, 5000);
                 });
             });
         }
@@ -53,15 +48,15 @@ function newGame() {
     // if(continent == 'europe'){
     //     myRequest.open("GET", "src/json/europe.json", true);
     // }
-    request.open("GET", "/src/data/europe.json", true);
+    request.open("GET", `/src/data/${country}.json`, true);
     request.send();
 }
 
-function addData(obj, count) {
+function addData(obj, count, country) {
     if (index < count) {
-        flagImg.src = `/src/images/countries/Europe/${obj.img}`;
+        flagImg.src = `/src/images/countries/${country}/${obj.img}`;
         flagArray.forEach((button, i) => {
-            button.id = `answer_${i+1}`;
+            button.id = `answer_${i + 1}`;
             button.dataset.options = obj[`options`][i];
             button.innerHTML = obj[`options`][i];
         });
@@ -72,7 +67,7 @@ function check(answer) {
     for (let i = 0; i < flagArray.length; i++) {
         if (flagArray[i].classList.contains('selected')) {
             let selectedOption = flagArray[i].dataset.options;
-            if (selectedOption ===  answer) {
+            if (selectedOption === answer) {
                 flagArray[i].classList.add('right');
                 numOfCorrect++;
             } else {
@@ -91,5 +86,15 @@ function getResult(count) {
     }
 }
 
-
-newGame();
+function nextLevel(country) {
+    flagImg.src = '';
+    flagArray.forEach(button => {
+        button.classList.remove('selected');
+        button.classList.remove('right');
+        button.classList.remove('wrong');
+    })
+    addData(questions[index], questionNum, country);
+    let next = document.getElementById('next')
+    next.classList.add('hidden')
+    console.log("hello")
+}

@@ -7,83 +7,34 @@
     <link rel="shortcut icon"
         href="https://t3.ftcdn.net/jpg/01/62/59/04/360_F_162590489_5IcesYmlOK0RC4T4r5lydft8aQmpCwI7.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/src/css/level-style.css">
+    <link rel="stylesheet" href="../src/css/level-style.css">
 </head>
 
-<body>
-    <a class="back" href="/src/index.html">Back to Home</a>
+<body onload='newGame("north-america")'>
+    <a class="back" href="/index.html">Back to Home</a>
     <div class="level">
         <h1>What country's flag is this?</h1>
-        <img id="flag-image" src="/src/images/countries/NorthAmerica/AntiguaandBarbuda.jpg" />
-        <div class="button-container">
-            <button id="option0" onclick="gameLogic(currentLevel, 'option0')">x</button>
-            <button id="option1" onclick="gameLogic(currentLevel, 'option1')">x</button>
-            <button id="option2" onclick="gameLogic(currentLevel, 'option2')">x</button>
-            <button id="option3" onclick="gameLogic(currentLevel, 'option3')">x</button>
+        <!-- <h1>Score: <span></span></h1> -->
+        <!-- <div class="count"><h1>question: </h1><span></span></div> -->
+        <div class="flag-img">
+            <img id="flag-image" src="" />
         </div>
+        <div class="button-container">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+        <div class="result">
+            <h1 class="score">Your score: <span></span></h1>
+            <button onClick="window.location.reload();">Play again</button>
+        </div>
+
     </div>
-    <script>
 
-        // Questions are threefold and make up levels.
-        const questions = [
-            {
-                // Level 1
-                image: "/src/images/countries/NorthAmerica/AntiguaandBarbuda.jpg",
-                answer: "Antigua",
-                options: ["United States", "Mexico", "Antigua", "Canada"],
-            },
-            {
-                // Level 2
-                image: "/src/images/countries/NorthAmerica/Bahamas.jpg",
-                answer: "Bahamas",
-                options: ["United States", "Mexico", "Canada", "Bahamas"],
-            },
-            {
-                // Level 3
-                image: "/src/images/countries/NorthAmerica/Barbados.jpg",
-                answer: "Barbados",
-                options: ["United States", "Barbados", "Canada", "Bahamas"],
-            }
-        ]
-        let currentLevel = 0
-        gameLogic(currentLevel, null)
-        // TODO: Make a way to get random elements from array in answer selection.
-
-        function gameLogic(level, userChoice) {
-            // This populates the button options.
-            for (let i = 0; i < questions[level].options.length; i++) {
-                // Check if options are loaded.
-                if (document.getElementById(`option${i}`)) {
-                    // For each optionID tag, place the corresponding option in it.
-                    document.getElementById(`option${i}`).innerText = questions[level].options[i]
-                }
-                // Gets the button for the answerPosition
-                if (questions[level].options[i] == questions[level].answer) {
-                    // Used for the comparison.
-                    answerPosition = i
-                    console.log(answerPosition)
-                }
-            }
-            // Sets the image for flag.
-            document.getElementById(`flag-image`).src = questions[level].image
-            // const btn = document.getElementById(userChoice);
-
-            // If the userChoice is correct, iterate the level.
-            if (userChoice == ('option' + [answerPosition])) {
-                currentLevel++
-            }
-            // else {
-            //     // If wrong selection, make choice red and stay on current level.
-            //     btn.addEventListener('click', function onClick() {
-            //         btn.style.backgroundColor = 'red';
-            //     })
-            // }
-            // Load the function for single click comparisons.
-            gameLogic(currentLevel, null)
-        }
-    </script>
-
+    <script src="/src/js/game-logic.js"></script>
 
 </body>
+
 
 </html>
