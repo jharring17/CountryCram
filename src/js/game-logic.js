@@ -96,5 +96,4 @@ function nextLevel(country) {
     addData(questions[index], questionNum, country);
     let next = document.getElementById('next')
     next.classList.add('hidden')
-    console.log("hello")
 }

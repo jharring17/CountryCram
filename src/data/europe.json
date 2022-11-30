@@ -78,5 +78,95 @@
             "Moldova"
         ],
         "answer": "Croatia"
+    },
+    {
+        "img": "CzechRepublic.jpg",
+        "options": [
+            "Italy",
+            "Czech Republic",
+            "Croatia",
+            "Iceland"
+        ],
+        "answer": "Czech Republic"
+    },
+    {
+        "img": "Denmark.jpg",
+        "options": [
+            "Estonia",
+            "Denmark",
+            "Malta",
+            "Monoco"
+        ],
+        "answer": "Denmark"
+    },
+    {
+        "img": "Estonia.jpg",
+        "options": [
+            "Estonia",
+            "Lithuania",
+            "Belgium",
+            "Montenegro"
+        ],
+        "answer": "Estonia"
+    },
+    {
+        "img": "Finland.jpg",
+        "options": [
+            "Russia",
+            "Finland",
+            "Latvia",
+            "Serbia"
+        ],
+        "answer": "Finland"
+    },
+    {
+        "img": "France.jpg",
+        "options": [
+            "France",
+            "Portugal",
+            "Norway",
+            "Slovakia"
+        ],
+        "answer": "France"
+    },
+    {
+        "img": "Germany.jpg",
+        "options": [
+            "Vatican City",
+            "Ireland",
+            "Spain",
+            "Germany"
+        ],
+        "answer": "Germany"
+    },
+    {
+        "img": "Greece.jpg",
+        "options": [
+            "Greece",
+            "Netherlands",
+            "San Morino",
+            "Liechtenstein"
+        ],
+        "answer": "Greece"
+    },
+    {
+        "img": "Hungary.jpg",
+        "options": [
+            "Serbia",
+            "Hungary",
+            "San Morino",
+            "Greece"
+        ],
+        "answer": "Hungary"
+    },
+    {
+        "img": "Iceland.jpg",
+        "options": [
+            "Poland",
+            "Netherlands",
+            "Iceland",
+            "Turkey"
+        ],
+        "answer": "Iceland"
     }
 ]
