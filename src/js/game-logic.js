@@ -11,6 +11,7 @@ let score = document.querySelector('.result .score span');
 let index = 0;
 let numOfCorrect = 0;
 let questionNum = 5;
+let clickCounter = 0;
 function newGame(country) {
     let request = new XMLHttpRequest();
     request.onreadystatechange = function () {
@@ -24,30 +25,36 @@ function newGame(country) {
 
             flagArray.forEach(button => {
                 button.addEventListener('click', () => {
-                    let answer = questions[index].answer;
-                    button.classList.add('selected');
-                    //Increase Index 
-                    index++;
-                    //Check The Answer
-                    setTimeout(() => {
-                        check(answer);
-                    }, 500);
-
-                    setTimeout(() => {
-                        let next = document.getElementById('next')
-                        next.classList.remove('hidden')
-                    }, 1000);
-
+                    if(clickCounter == 0){
+                        let answer = questions[index].answer;
+                        button.classList.add('selected');
+                        //Increase Index 
+                        index++;
+                        //Check The Answer
+                        setTimeout(() => {
+                            check(answer);
+                        }, 500);
+                    
+                        setTimeout(() => {
+                            let next = document.getElementById('next')
+                            if (index < questionNum){
+                                next.classList.remove('hidden')
+                            }
+                        }, 1000);
+                        clickCounter++
+   
+                    }else{
+                        
+                    }
+                   
                     setTimeout(() => {
                         getResult(questionNum);
                     }, 5000);
+                    
                 });
             });
         }
     }
-    // if(continent == 'europe'){
-    //     myRequest.open("GET", "src/json/europe.json", true);
-    // }
     request.open("GET", `/src/data/${country}.json`, true);
     request.send();
 }
@@ -87,6 +94,8 @@ function getResult(count) {
 }
 
 function nextLevel(country) {
+    
+    clickCounter -= 1
     flagImg.src = '';
     flagArray.forEach(button => {
         button.classList.remove('selected');
@@ -96,4 +105,5 @@ function nextLevel(country) {
     addData(questions[index], questionNum, country);
     let next = document.getElementById('next')
     next.classList.add('hidden')
+    
 }
