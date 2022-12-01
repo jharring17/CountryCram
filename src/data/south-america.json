@@ -1,0 +1,122 @@
+[
+    {
+        "img": "Argentina.jpg",
+        "options": [
+            "Chile",
+            "Brazil",
+            "Argentina",
+            "Bolivia"
+        ],
+        "answer": "Argentina"
+    },
+    {
+        "img": "Bolivia.jpg",
+        "options": [
+            "Suriname",
+            "Peru",
+            "Columbia",
+            "Bolivia"
+        ],
+        "answer": "Bolivia"
+    },
+    {
+        "img": "Brazil.jpg",
+        "options": [
+            "Brazil",
+            "Ecuador",
+            "Paraguay",
+            "Uruguay"
+        ],
+        "answer": "Brazil"
+    },
+    {
+        "img": "Chile.jpg",
+        "options": [
+            "Brazil",
+            "Chile",
+            "Bolivia",
+            "Venezuela"
+        ],
+        "answer": "Chile"
+    },
+    {
+        "img": "Colombia.jpg",
+        "options": [
+            "Argentina",
+            "Peru",
+            "Colombia",
+            "Brazil"
+        ],
+        "answer": "Colombia"
+    },
+    {
+        "img": "Ecuador.jpg",
+        "options": [
+            "Uruguay",
+            "Ecuador",
+            "Guyana",
+            "Peru"
+        ],
+        "answer": "Ecuador"
+    },
+    {
+        "img": "Guyana.jpg",
+        "options": [
+            "Suriname",
+            "Brazil",
+            "Guyana",
+            "Argentina"
+        ],
+        "answer": "Guyana"
+    },
+    {
+        "img": "Paraguay.jpg",
+        "options": [
+            "Chile",
+            "Paraguay",
+            "Peru",
+            "Brazil"
+        ],
+        "answer": "Paraguay"
+    },
+    {
+        "img": "Peru.jpg",
+        "options": [
+            "Ecuador",
+            "Bolivia",
+            "Peru",
+            "Brazil"
+        ],
+        "answer": "Peru"
+    },
+    {
+        "img": "Suriname.jpg",
+        "options": [
+            "Chile",
+            "Columbia",
+            "Uruguay",
+            "Suriname"
+        ],
+        "answer": "Suriname"
+    },
+    {
+        "img": "Uruguay.jpg",
+        "options": [
+            "Uruguay",
+            "Argentina",
+            "Brazil",
+            "Peru"
+        ],
+        "answer": "Uruguay"
+    },
+    {
+        "img": "Venezuela.jpg",
+        "options": [
+            "Peru",
+            "Suriname",
+            "Ecuador",
+            "Venezuela"
+        ],
+        "answer": "Venezuela"
+    }
+]

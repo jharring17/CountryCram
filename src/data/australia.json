@@ -1,0 +1,132 @@
+[
+    {
+        "img": "Fiji.jpg",
+        "options": [
+            "Fiji",
+            "Tonga",
+            "Samoa",
+            "Kiribati"
+        ],
+        "answer": "Fiji"
+    },
+    {
+        "img": "Kiribati.jpg",
+        "options": [
+            "Palau",
+            "Tonga",
+            "Vanuata",
+            "Kiribati"
+        ],
+        "answer": "Kiribati"
+    },
+    {
+        "img": "MarshallIslands.jpg",
+        "options": [
+            "Fiji",
+            "Marshall Islands",
+            "Samoa",
+            "Tuvalu"
+        ],
+        "answer": "Marshall Islands"
+    },
+    {
+        "img": "Micronesia.jpg",
+        "options": [
+            "Tuvalu",
+            "Samoa",
+            "Micronesia",
+            "Nauru"
+        ],
+        "answer": "Micronesia"
+    },
+    {
+        "img": "Nauru.jpg",
+        "options": [
+            "Tuvalu",
+            "New Zealand",
+            "Tonga",
+            "Nauru"
+        ],
+        "answer": "Nauru"
+    },
+    {
+        "img": "NewZealand.jpg",
+        "options": [
+            "Tonga",
+            "New Zealand",
+            "Samoa",
+            "Palau"
+        ],
+        "answer": "New Zealand"
+    },
+    {
+        "img": "Palau.jpg",
+        "options": [
+            "Palau",
+            "Solomon Islands",
+            "Kirbati",
+            "Fiji"
+        ],
+        "answer": "Palau"
+    },
+    {
+        "img": "PapuaNewGuinea.jpg",
+        "options": [
+            "Micronesia",
+            "Nauru",
+            "Papua New Guinea",
+            "Fiji"
+        ],
+        "answer": "Papua New Guinea"
+    },
+    {
+        "img": "Samoa.jpg",
+        "options": [
+            "Vanuata",
+            "Samoa",
+            "Tonga",
+            "Fiji"
+        ],
+        "answer": "Samoa"
+    },
+    {
+        "img": "SolomonIslands.jpg",
+        "options": [
+            "Vanuata",
+            "Tonga",
+            "Solomon Islands",
+            "Palau"
+        ],
+        "answer": "Solomon Islands"
+    },
+    {
+        "img": "Tonga.jpg",
+        "options": [
+            "Vanuata",
+            "Tonga",
+            "Samoa",
+            "Palau"
+        ],
+        "answer": "Tonga"
+    },
+    {
+        "img": "Tuvalu.jpg",
+        "options": [
+            "Tuvalu",
+            "Tonga",
+            "Samoa",
+            "Palau"
+        ],
+        "answer": "Tuvalu"
+    },
+    {
+        "img": "Vanuata.jpg",
+        "options": [
+            "Samoa",
+            "Vanuata",
+            "Tonga",
+            "Micronesia"
+        ],
+        "answer": "Vanuata"
+    }
+]
