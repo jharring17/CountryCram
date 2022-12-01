@@ -1,0 +1,503 @@
+[
+    {
+        "img": "Afghanistan.jpg",
+        "options": [
+            "Kyrgyzstan",
+            "Afghanistan",
+            "Kazakhstan",
+            "Tajikistan"
+        ],
+        "answer": "Afghanistan"
+    },
+    {
+        "img": "Armenia.jpg",
+        "options": [
+            "Pakistan",
+            "Nepal",
+            "Armenia",
+            "Laos"
+        ],
+        "answer": "Armenia"
+    },
+    {
+        "img": "Azerbaijan.jpg",
+        "options": [
+            "Azerbaijan",
+            "Indonesia",
+            "Jordan",
+            "Brunei"
+        ],
+        "answer": "Azerbaijan"
+    },
+    {
+        "img": "Bahrain.jpg",
+        "options": [
+            "Bahrain",
+            "Bhutan",
+            "Israel",
+            "Brunei"
+        ],
+        "answer": "Bahrain"
+    },
+    {
+        "img": "Bangladesh.jpg",
+        "options": [
+            "Iraq",
+            "Kuwait",
+            "Macau",
+            "Bangladesh"
+        ],
+        "answer": "Bangladesh"
+    },
+    {
+        "img": "Bhutan.jpg",
+        "options": [
+            "Iran",
+            "Jordan",
+            "Maldives",
+            "Albania"
+        ],
+        "answer": "Bhutan"
+    },
+    {
+        "img": "Brunei.jpg",
+        "options": [
+            "Brunei",
+            "Georgia",
+            "Malaysia",
+            "Myanmar"
+        ],
+        "answer": "Brunei"
+    },
+    {
+        "img": "Cambodia.jpg",
+        "options": [
+            "Pakistan",
+            "Cambodia",
+            "Mongolia",
+            "Maldives"
+        ],
+        "answer": "Cambodia"
+    },
+    {
+        "img": "China.jpg",
+        "options": [
+            "Japan",
+            "Indonesia",
+            "NorthKorea",
+            "China"
+        ],
+        "answer": "China"
+    },
+    {
+        "img": "Georgia.jpg",
+        "options": [
+            "China",
+            "Georgia",
+            "Thailand",
+            "Yemen"
+        ],
+        "answer": "Georgia"
+    },
+    {
+        "img": "HongKong.jpg",
+        "options": [
+            "Macau",
+            "HongKong",
+            "Macau",
+            "China"
+        ],
+        "answer": "HongKong"
+    },
+    {
+        "img": "India.jpg",
+        "options": [
+            "Iran",
+            "Jordan",
+            "India",
+            "Tajikistan"
+        ],
+        "answer": "India"
+    },
+    {
+        "img": "Indonesia.jpg",
+        "options": [
+            "Mongolia",
+            "Taiwan",
+            "Kazakhstan",
+            "Indonesia"
+        ],
+        "answer": "Indonesia"
+    },
+    {
+        "img": "Iran.jpg",
+        "options": [
+            "Lebanon",
+            "Nepal",
+            "Armenia",
+            "Iran"
+        ],
+        "answer": "Iran"
+    },
+    {
+        "img": "Iraq.jpg",
+        "options": [
+            "Macau",
+            "Iraq",
+            "Jordan",
+            "Iran"
+        ],
+        "answer": "Iraq"
+    },
+    {
+        "img": "Israel.jpg",
+        "options": [
+            "Qatar",
+            "China",
+            "Israel",
+            "Brunei"
+        ],
+        "answer": "Israel"
+    },
+    {
+        "img": "Japan.jpg",
+        "options": [
+            "Japan",
+            "Taiwan",
+            "Thailand",
+            "Vietnam"
+        ],
+        "answer": "Japan"
+    },
+    {
+        "img": "Jordan.jpg",
+        "options": [
+            "Iran",
+            "Jordan",
+            "Maldives",
+            "Albania"
+        ],
+        "answer": "Jordan"
+    },
+    {
+        "img": "Kazakhstan.jpg",
+        "options": [
+            "Kyrgyzstan",
+            "Afghanistan",
+            "Kazakhstan",
+            "Tajikistan"
+        ],
+        "answer": "Kazakhstan"
+    },
+    {
+        "img": "Kuwait.jpg",
+        "options": [
+            "Pakistan",
+            "Nepal",
+            "Palestine",
+            "Kuwait"
+        ],
+        "answer": "Kuwait"
+    },
+    {
+        "img": "Kyrgyzstan.jpg",
+        "options": [
+            "Azerbaijan",
+            "Kazakhstan",
+            "Kyrgyzstan",
+            "Kuwait"
+        ],
+        "answer": "Kyrgyzstan"
+    },
+    {
+        "img": "Laos.jpg",
+        "options": [
+            "Syria",
+            "Bhutan",
+            "Singapore",
+            "Laos"
+        ],
+        "answer": "Laos"
+    },
+    {
+        "img": "Lebanon.jpg",
+        "options": [
+            "Lebanon",
+            "Kuwait",
+            "Macau",
+            "North Korea"
+        ],
+        "answer": "Lebanon"
+    },
+    {
+        "img": "Macau.jpg",
+        "options": [
+            "Macau",
+            "HongKong",
+            "Macau",
+            "China"
+        ],
+        "answer": "Macau"
+    },
+    {
+        "img": "Malaysia.jpg",
+        "options": [
+            "Malaysia",
+            "Jordan",
+            "Maldives",
+            "Albania"
+        ],
+        "answer": "Malaysia"
+    },
+    {
+        "img": "Maldives.jpg",
+        "options": [
+            "Maldives",
+            "Macau",
+            "Myanmar",
+            "Taiwan"
+        ],
+        "answer": "Maldives"
+    },
+    {
+        "img": "Mongolia.jpg",
+        "options": [
+            "Mongolia",
+            "Nepal",
+            "Pakistan",
+            "Philippines"
+        ],
+        "answer": "Mongolia"
+    },
+    {
+        "img": "Myanmar.jpg",
+        "options": [
+            "Azerbaijan",
+            "Myanmar",
+            "Jordan",
+            "Brunei"
+        ],
+        "answer": "Myanmar"
+    },
+    {
+        "img": "Nepal.jpg",
+        "options": [
+            "Bahrain",
+            "Nepal",
+            "Israel",
+            "Brunei"
+        ],
+        "answer": "Nepal"
+    },
+    {
+        "img": "NorthKorea.jpg",
+        "options": [
+            "Iraq",
+            "North Korea",
+            "China",
+            "Iran"
+        ],
+        "answer": "North Korea"
+    },
+    {
+        "img": "Oman.jpg",
+        "options": [
+            "Iran",
+            "Jordan",
+            "Oman",
+            "Laos"
+        ],
+        "answer": "Oman"
+    },
+    {
+        "img": "Pakistan.jpg",
+        "options": [
+            "Kyrgyzstan",
+            "Afghanistan",
+            "Kazakhstan",
+            "Pakistan"
+        ],
+        "answer": "Pakistan"
+    },
+    {
+        "img": "Palestine.jpg",
+        "options": [
+            "Pakistan",
+            "Palestine",
+            "Armenia",
+            "Laos"
+        ],
+        "answer": "Palestine"
+    },
+    {
+        "img": "Philippines.jpg",
+        "options": [
+            "Qatar",
+            "Indonesia",
+            "Jordan",
+            "Philippines"
+        ],
+        "answer": "Philippines"
+    },
+    {
+        "img": "Qatar.jpg",
+        "options": [
+            "Bahrain",
+            "Qatar",
+            "Israel",
+            "Syria"
+        ],
+        "answer": "Qatar"
+    },
+    {
+        "img": "SaudiArabia.jpg",
+        "options": [
+            "Iraq",
+            "Kuwait",
+            "Saudi Arabia",
+            "Bangladesh"
+        ],
+        "answer": "Saudi Arabia"
+    },
+    {
+        "img": "Singapore.jpg",
+        "options": [
+            "Malaysia",
+            "Singapore",
+            "Nepal",
+            "Thailand"
+        ],
+        "answer": "Singapore"
+    }
+    ,
+    {
+        "img": "SouthKorea.jpg",
+        "options": [
+            "South Korea",
+            "Qatar",
+            "Japan",
+            "Vietnam"
+        ],
+        "answer": "South Korea"
+    },
+    {
+        "img": "SriLanka.jpg",
+        "options": [
+            "Sri Lanka",
+            "Taiwan",
+            "Saudi Arabia",
+            "Thailand"
+        ],
+        "answer": "Sri Lanka"
+    },
+    {
+        "img": "Syria.jpg",
+        "options": [
+            "Syria",
+            "Jordan",
+            "Maldives",
+            "Cambodia"
+        ],
+        "answer": "Syria"
+    },
+    {
+        "img": "Taiwan.jpg",
+        "options": [
+            "South Korea",
+            "Vietnam",
+            "Taiwan",
+            "Thailand"
+        ],
+        "answer": "Taiwan"
+    },
+    {
+        "img": "Tajikistan.jpg",
+        "options": [
+            "Tajikistan",
+            "Afghanistan",
+            "Kazakhstan",
+            "Pakistan"
+        ],
+        "answer": "Tajikistan"
+    },
+    {
+        "img": "Thailand.jpg",
+        "options": [
+            "Thailand",
+            "Vietnam",
+            "Oman",
+            "Macau"
+        ],
+        "answer": "Thailand"
+    },
+    {
+        "img": "Thailand.jpg",
+        "options": [
+            "Thailand",
+            "Vietnam",
+            "Oman",
+            "Macau"
+        ],
+        "answer": "Thailand"
+    },
+    {
+        "img": "Timor-Leste.jpg",
+        "options": [
+            "Myanmar",
+            "Brunei",
+            "India",
+            "Timor-Leste"
+        ],
+        "answer": "Timor-Leste"
+    },
+    {
+        "img": "Turkmenistan.jpg",
+        "options": [
+            "Tajikistan",
+            "Afghanistan",
+            "Kazakhstan",
+            "Turkmenistan"
+        ],
+        "answer": "Turkmenistan"
+    },
+    {
+        "img": "UnitedArabEmirates.jpg",
+        "options": [
+            "Iran",
+            "Saudi Arabia",
+            "Oman",
+            "United Arab Emirates"
+        ],
+        "answer": "United Arab Emirates"
+    }, 
+    {
+        "img": "Uzbekistan.jpg",
+        "options": [
+            "Pakistan",
+            "Uzbekistan",
+            "Tajikistan",
+            "Afghanistan"
+        ],
+        "answer": "Uzbekistan"
+    },
+    {
+        "img": "Vietnam.jpg",
+        "options": [
+            "Yemen",
+            "Saudi Arabia",
+            "Oman",
+            "Vietnam"
+        ],
+        "answer": "Vietnam"
+    }, 
+    {
+        "img": "Yemen.jpg",
+        "options": [
+            "Vietnam",
+            "Saudi Arabia",
+            "Oman",
+            "Yemen"
+        ],
+        "answer": "Yemen"
+    }
+]
