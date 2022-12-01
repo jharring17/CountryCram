@@ -1,0 +1,534 @@
+[
+    {
+        "img": "Algeria.jpg",
+        "options": [
+            "Botswana",
+            "Algeria",
+            "Cameroon",
+            "Angola"
+        ],
+        "answer": "Algeria"
+    },
+    {
+        "img": "Angola.jpg",
+        "options": [
+            "Algeria",
+            "Angola",
+            "Congo",
+            "Gabon"
+        ],
+        "answer": "Angola"
+    },
+    {
+        "img": "Benin.jpg",
+        "options": [
+            "Benin",
+            "Botswana",
+            "BurkinaFaso",
+            "Gabon"
+        ],
+        "answer": "Benin"
+    },
+    {
+        "img": "Botswana.jpg",
+        "options": [
+            "Benin",
+            "Botswana",
+            "BurkinaFaso",
+            "Djibouti" 
+        ],
+        "answer": "Botswana"
+    },
+    {
+        "img": "BurkinaFaso.jpg",
+        "options": [
+            "Benin",
+            "Botswana",
+            "BurkinaFaso",
+            "Algeria" 
+        ],
+        "answer": "BurkinaFaso"
+    },
+    {
+        "img": "Burundi.jpg",
+        "options": [
+            "Burundi",
+            "Botswana",
+            "Benin",
+            "BurkinaFaso" 
+        ],
+        "answer": "Burundi"
+    },
+    {
+        "img": "Cameroon.jpg",
+        "options": [
+            "Cameroon",
+            "Benin",
+            "Cape Verde",
+            "Ethiopia"         
+        ],
+        "answer": "Cameroon"
+    },
+    {
+        "img": "CapeVerde.jpg",
+        "options": [
+            "Cameroon",
+            "Benin",
+            "Cape Verde",
+            "Ethiopia"       
+        ],
+        "answer": "Cape Verde"
+    },
+    {
+        "img": "CentralAfricanRepublic.jpg",
+        "options": [
+            "Comoros",
+            "Central African Republic",
+            "Congo",
+            "South Sudan"
+        ],
+        "answer": "Central African Republic"
+    },
+    {
+        "img": "Chad.jpg",
+        "options": [
+            "Chad",
+            "Central African Republic",
+            "Botswana",
+            "Comoros"
+        ],
+        "answer": "Chad"
+    },
+    {
+        "img": "Comoros.jpg",
+        "options": [
+            "Comoros",
+            "Angola",
+            "Congo",
+            "Gabon"
+        ],
+        "answer": "Comoros"
+    },
+    {
+        "img": "Congo.jpg",
+        "options": [
+            "Malawi",
+            "Tanzania",
+            "Congo",
+            "Cameroon"
+          
+        ],
+        "answer": "Congo"
+    },
+    {
+        "img": "Djibouti.jpg",
+        "options": [
+            "Djibouti",
+            "DR of Congo",
+            "South Sudan",
+            "Rwanda"
+        ],
+        "answer": "Djibouti"
+    },
+    {
+        "img": "DRofCongo.jpg",
+        "options": [
+            "Djibouti",
+            "DR of Congo",
+            "South Sudan",
+            "Rwanda" 
+        ],
+        "answer": "DR of Congo"
+    },
+    {
+        "img": "Egypt.jpg",
+        "options": [
+            "Cameroon",
+            "Benin",
+            "Egypt",
+            "Ethiopia"      
+        ],
+        "answer": "Egypt"
+    },
+    {
+        "img": "EquatorialGuinea.jpg",
+        "options": [
+            "Equatorial Guinea",
+            "Benin",
+            "Egypt",
+            "Ethiopia"    
+        ],
+        "answer": "Equatorial Guinea"
+    },
+    {
+        "img": "Eritrea.jpg",
+        "options": [
+            "Equatorial Guinea",
+            "Benin",
+            "Egypt",
+            "Eritrea"  
+        ],
+        "answer": "Eritrea"
+    },
+    {
+        "img": "Eswatini.jpg",
+        "options": [
+            "Eswatini",
+            "Malawi",
+            "Egypt",
+            "Eritrea" 
+        ],
+        "answer": "Eswatini"
+    },
+    {
+        "img": "Ethiopia.jpg",
+        "options": [
+            "Ethiopia",
+            "Malawi",
+            "Egypt",
+            "Eswatini"  
+        ],
+        "answer": "Ethiopia"
+    },
+    {
+        "img": "Gabon.jpg",
+        "options": [
+            "Algeria",
+            "Angola",
+            "Congo",
+            "Gabon"
+        ],
+        "answer": "Gabon"
+    },
+    {
+        "img": "Gambia.jpg",
+        "options": [
+            "Botswana",
+            "Gambia",
+            "Congo",
+            "Gabon"
+        ],
+        "answer": "Gambia"
+    },
+    {
+        "img": "Ghana.jpg",
+        "options": [
+            "Ghana",
+            "Gambia",
+            "Congo",
+            "Gabon"
+        ],
+        "answer": "Ghana"
+    },
+    {
+        "img": "Guinea-Bissau.jpg",
+        "options": [
+            "Ghana",
+            "Guinea-Bissau",
+            "Cape Verde",
+            "Gabon"
+        ],
+        "answer": "Guinea-Bissau"
+    },
+    {
+        "img": "Guinea.jpg",
+        "options": [
+            "Guinea",
+            "Guinea-Bissau",
+            "Cape Verde",
+            "Lesotho"
+        ],
+        "answer": "Guinea"
+    },
+    {
+        "img": "Kenya.jpg",
+        "options": [
+            "Lesotho",
+            "Kenya",
+            "Cape Verde",
+            "BurkinaFaso"
+        ],
+        "answer": "Kenya"
+    },
+    {
+        "img": "Lesotho.jpg",
+        "options": [
+            "Lesotho",
+            "Kenya",
+            "Cape Verde",
+            "Djibouti"
+        ],
+        "answer": "Lesotho"
+    },
+    {
+        "img": "Liberia.jpg",
+        "options": [
+            "Lesotho",
+            "Egypt",
+            "Cape Verde",
+            "Liberia"
+        ],
+        "answer": "Liberia"
+    },
+    {
+        "img": "Libya.jpg",
+        "options": [
+            "Libya",
+            "Egypt",
+            "Cameroon",
+            "Liberia"
+        ],
+        "answer": "Libya"
+    },
+    {
+        "img": "Madagascar.jpg",
+        "options": [
+            "Malawi",
+            "Madagascar",
+            "Cameroon",
+            "Liberia"
+        ],
+        "answer": "Madagascar"
+    },
+    {
+        "img": "Malawi.jpg",
+        "options": [
+            "Malawi",
+            "Madagascar",
+            "Cameroon",
+            "Liberia"
+        ],
+        "answer": "Malawi"
+    },
+    {
+        "img": "Mali.jpg",
+        "options": [
+            "Malawi",
+            "Madagascar",
+            "Mali",
+            "Liberia"
+        ],
+        "answer": "Mali"
+    },
+    {
+        "img": "Mauritania.jpg",
+        "options": [
+            "Malawi",
+            "Madagascar",
+            "Mali",
+            "Mauritania"
+        ],
+        "answer": "Mauritania"
+    },
+    {
+        "img": "Mauritius.jpg",
+        "options": [
+            "Mauritius",
+            "Madagascar",
+            "Mali",
+            "Mauritania"
+        ],
+        "answer": "Mauritius"
+    },
+    {
+        "img": "Morocco.jpg",
+        "options": [
+            "Morocco",
+            "Gambia",
+            "Congo",
+            "Mali"
+        ],
+        "answer": "Morocco"
+    },
+    {
+        "img": "Mozambique.jpg",
+        "options": [
+            "Morocco",
+            "Gambia",
+            "Congo",
+            "Morocco"
+        ],
+        "answer": "Morocco"
+    },
+    {
+        "img": "Namibia.jpg",
+        "options": [
+            "Namibia",
+            "Guinea-Bissau",
+            "Algeria",
+            "Liberia"
+        ],
+        "answer": "Namibia"
+    },
+    {
+        "img": "Niger.jpg",
+        "options": [
+            "Namibia",
+            "Niger",
+            "Lesotho",
+            "Liberia"
+        ],
+        "answer": "Niger"
+    }
+    ,
+    {
+        "img": "Nigeria.jpg",
+        "options": [
+            "Lesotho",
+            "Kenya",
+            "Nigeria",
+            "Djibouti"
+        ],
+        "answer": "Nigeria"
+    },
+    {
+        "img": "Rwanda.jpg",
+        "options": [
+            "Senegal",
+            "Kenya",
+            "Nigeria",
+            "Rwanda"
+        ],
+        "answer": "Rwanda"
+    },
+    {
+        "img": "SãoToméandPríncipe.jpg",
+        "options": [
+            "Lesotho",
+            "São Tomé and Príncipe",
+            "Nigeria",
+            "South Sudan"
+        ],
+        "answer": "São Tomé and Príncipe"
+    },
+    {
+        "img": "Senegal.jpg",
+        "options": [
+            "Seychelles",
+            "Niger",
+            "Senegal",
+            "Liberia"
+        ],
+        "answer": "Senegal"
+    },
+    {
+        "img": "Seychelles.jpg",
+        "options": [
+            "Seychelles",
+            "Niger",
+            "Senegal",
+            "Liberia"
+        ],
+        "answer": "Seychelles"
+    },
+    {
+        "img": "SierraLeone.jpg",
+        "options": [
+            "Seychelles",
+            "Niger",
+            "DR of Congo",
+            "SierraLeon"
+        ],
+        "answer": "Sierra Leone"
+    },
+    {
+        "img": "Somalia.jpg",
+        "options": [
+            "Somalia",
+            "Gambia",
+            "Congo",
+            "Morocco"
+        ],
+        "answer": "Somalia"
+    },
+    {
+        "img": "SouthAfrica.jpg",
+        "options": [
+            "Somalia",
+            "Gambia",
+            "Congo",
+            "South Africa"
+        ],
+        "answer": "South Africa"
+    },
+    {
+        "img": "SouthSudan.jpg",
+        "options": [
+            "Somalia",
+            "South Sudan",
+            "Gambia",
+            "South Africa"
+        ],
+        "answer": "South Sudan"
+    },
+    {
+        "img": "Sudan.jpg",
+        "options": [
+            "Sudan",
+            "South Sudan",
+            "Gambia",
+            "South Africa"
+        ],
+        "answer": "Sudan"
+    }, 
+    {
+        "img": "Tanzania.jpg",
+        "options": [
+            "Botswana",
+            "Gambia",
+            "Tanzania",
+            "Liberia"
+        ],
+        "answer": "Tanzania"
+    },
+    {
+        "img": "Togo.jpg",
+        "options": [
+            "Togo",
+            "Tunisia",
+            "Tanzania",
+            "Liberia"
+        ],
+        "answer": "Togo"
+    }, 
+    {
+        "img": "Tunisia.jpg",
+        "options": [
+            "Nigeria",
+            "Tunisia",
+            "Tanzania",
+            "Liberia"
+        ],
+        "answer": "Tunisia"
+    }, 
+    {
+        "img": "Uganda.jpg",
+        "options": [
+            "Uganda",
+            "Tunisia",
+            "Gabon",
+            "Liberia"
+        ],
+        "answer": "Uganda"
+    }, 
+    {
+        "img": "Zambia.jpg",
+        "options": [
+            "Zambia",
+            "Kenya",
+            "Nigeria",
+            "Zimbabwe"
+        ],
+        "answer": "Zambia"
+    }, 
+    {
+        "img": "Zimbabwe.jpg",
+        "options": [
+            "Zambia",
+            "Kenya",
+            "Nigeria",
+            "Zimbabwe"
+        ],
+        "answer": "Zimbabwe"
+    }
+]
