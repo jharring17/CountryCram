@@ -2,9 +2,11 @@ let flagImgDiv = document.querySelector('.flag-img');
 let flagImg = document.querySelector('.flag-img img');
 let flagOptions = document.querySelector('.button-container');
 let flagArray = document.querySelectorAll('.button-container button');
-let questions
+let correctSound = document.getElementById('correct');
+let incorrectSound = document.getElementById('incorrect');
 let resultDiv = document.querySelector('.result');
 let score = document.querySelector('.result .score span');
+let questions
 
 // let continent = document.querySelector('.body')
 
@@ -76,9 +78,11 @@ function check(answer) {
             let selectedOption = flagArray[i].dataset.options;
             if (selectedOption === answer) {
                 flagArray[i].classList.add('right');
+                correctSound.play()
                 numOfCorrect++;
             } else {
                 flagArray[i].classList.add('wrong');
+                incorrectSound.play()
             }
         }
     }
