@@ -118,6 +118,10 @@ button.wrong {
     background-color: red;
 }
 
+button.showright {
+    background-color: green;
+}
+
 .hidden {
     display: none;
 }
@@ -136,7 +140,7 @@ button.wrong {
     color: white;
     border-radius: .25rem;
     position: inherit;
-    right: 8%;
+    right: 25%;
     display: none;
 }
 
