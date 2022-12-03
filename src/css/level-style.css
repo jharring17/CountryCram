@@ -107,7 +107,7 @@ button.wrong {
     background: black;
     color: white;
     border-radius: .25rem;
-    position: absolute;
+    position: inherit;
     right: 25%;
     display: none;
   }
