@@ -96,6 +96,9 @@ button.right {
 button.wrong {
     background-color: red;
 }
+button.showright {
+    background-color: green;
+}
 
 .hidden {
     display: none;

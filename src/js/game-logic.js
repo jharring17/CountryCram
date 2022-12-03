@@ -92,6 +92,11 @@ function check(answer) {
                 numOfCorrect++;
             } else {
                 flagArray[i].classList.add('wrong');
+                for(let i = 0; i < flagArray.length; i++) {
+                    if (flagArray[i].dataset.options === answer){
+                        flagArray[i].classList.add('showright');
+                    }
+                }
                 showNotification("&#10006");
                 incorrectSound.play()
             }
@@ -116,6 +121,7 @@ function nextLevel(country) {
         button.classList.remove('selected');
         button.classList.remove('right');
         button.classList.remove('wrong');
+        button.classList.remove("showright");
     })
     addData(questions[index], questionNum, country);
     let next = document.getElementById('next')
