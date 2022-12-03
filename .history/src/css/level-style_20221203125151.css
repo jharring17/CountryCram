@@ -101,19 +101,4 @@ button.wrong {
     display: none;
 }
 
-.notification-message {
-    margin: auto 1rem;
-    padding: .5rem 1rem;
-    background: black;
-    color: white;
-    border-radius: .25rem;
-    position: absolute;
-    right: 25%;
-    display: none;
-  }
-  
-  .notification-message.notify {
-    display: block;
-  }
-
 /* TODO: Add breakpoints for 400px, 800px, 1200px, 1600px */

@@ -2,7 +2,6 @@ let flagImgDiv = document.querySelector('.flag-img');
 let flagImg = document.querySelector('.flag-img img');
 let flagOptions = document.querySelector('.button-container');
 let flagArray = document.querySelectorAll('.button-container button');
-let notificationEl = document.querySelector('.button-container p.notification-message');
 let correctSound = document.getElementById('correct');
 let incorrectSound = document.getElementById('incorrect');
 let resultDiv = document.querySelector('.result');
@@ -73,26 +72,16 @@ function addData(obj, count, country) {
     }
 }
 
-function showNotification(notification) {
-    notificationEl.classList.add('notify');
-    notificationEl.innerHTML = notification
-    setTimeout(function() {
-      notificationEl.classList.remove('notify');
-    }, 1000);
-}
-
 function check(answer) {
     for (let i = 0; i < flagArray.length; i++) {
         if (flagArray[i].classList.contains('selected')) {
             let selectedOption = flagArray[i].dataset.options;
             if (selectedOption === answer) {
                 flagArray[i].classList.add('right');
-                showNotification("&#10004")
-                correctSound.play();
+                correctSound.play()
                 numOfCorrect++;
             } else {
                 flagArray[i].classList.add('wrong');
-                showNotification("&#10006");
                 incorrectSound.play()
             }
         }

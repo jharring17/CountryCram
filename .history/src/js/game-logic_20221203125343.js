@@ -81,7 +81,7 @@ function showNotification(notification) {
     }, 1000);
 }
 
-function check(answer) {
+ffunction check(answer) {
     for (let i = 0; i < flagArray.length; i++) {
         if (flagArray[i].classList.contains('selected')) {
             let selectedOption = flagArray[i].dataset.options;

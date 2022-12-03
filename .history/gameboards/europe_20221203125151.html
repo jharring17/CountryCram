@@ -8,9 +8,11 @@
         href="https://t3.ftcdn.net/jpg/01/62/59/04/360_F_162590489_5IcesYmlOK0RC4T4r5lydft8aQmpCwI7.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../src/css/level-style.css">
+    <!-- TODO: import fontawesome and add checks and x's for accessibility.-->
+    <!-- https://fontawesome.com/icons/check?s=solid&f=classic -->
 </head>
 
-<body onload='newGame("africa")'>
+<body onload='newGame("europe")'>
     <a class="back" href="/index.html">Back to Home</a>
     <div class="level">
         <h1>What country's flag is this?</h1>
@@ -26,9 +28,9 @@
             <button></button>
             <audio id="correct" src="/src/sound/right.mp3"></audio>
             <audio id="incorrect" src="/src/sound/wrong.mp3"></audio>
-            <p class="notification-message"></p>
         </div>
-        <button class="hidden" id="next" onClick="nextLevel('africa')">Next</button>
+        <!-- TODO: Add this button everywhere. -->
+        <button class="hidden" id="next" onClick="nextLevel('europe')">Next</button>
         <div class="result">
             <h1 class="score">Your score: <span></span> / 5</h1>
             <button onClick="window.location.reload();">Play again</button>

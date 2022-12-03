@@ -87,12 +87,10 @@ function check(answer) {
             let selectedOption = flagArray[i].dataset.options;
             if (selectedOption === answer) {
                 flagArray[i].classList.add('right');
-                showNotification("&#10004")
-                correctSound.play();
+                correctSound.play()
                 numOfCorrect++;
             } else {
                 flagArray[i].classList.add('wrong');
-                showNotification("&#10006");
                 incorrectSound.play()
             }
         }
