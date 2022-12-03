@@ -340,14 +340,14 @@
         "answer": "Russia"
     },
     {
-        "img": "SanMorino.jpg",
+        "img": "SanMarino.jpg",
         "options": [
             "Germany",
             "Turkey",
             "Russia",
-            "San Morino"
+            "San Marino"
         ],
-        "answer": "San Morino"
+        "answer": "San Marino"
     },
     {
         "img": "Serbia.jpg",
