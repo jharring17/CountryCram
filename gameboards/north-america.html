@@ -13,7 +13,7 @@
 <body onload='newGame("north-america")'>
     <a class="back" href="/index.html">Back to Home</a>
     <div class="level">
-        <h1>What country's flag is this?</h1>
+        <h1 id="levelHeader">What country's flag is this?</h1>
         <!-- <h1>Score: <span></span></h1> -->
         <!-- <div class="count"><h1>question: </h1><span></span></div> -->
         <div class="flag-img">
@@ -31,7 +31,7 @@
         <button class="hidden" id="next" onClick="nextLevel('north-america')">Next</button>
         <div class="result">
             <h1 class="score">Your score: <span></span> / 5</h1>
-            <button onClick="window.location.reload();">Play again</button>
+            <button class="again" onClick="window.location.reload();">Play again</button>
         </div>
 
     </div>

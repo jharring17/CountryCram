@@ -190,46 +190,5 @@ a:active {
     text-decoration: none;
 }
 
-.footer {
-    width: 98.5%;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #b9b7b7;
-    color: white;
-    border: 5px solid white;
-    border-radius: 20px;
-    overflow: hidden;
-    align-items: center;
-    display: inline-flex;
-}
-
-.footer-text {
-    color: white;
-    font-family: Verdana;
-    font-size: 20px;
-    float: left;
-    padding-left: 20px;
-    align-items: center;
-}
-
-.github-icon {
-    border: 5px solid white;
-    border-radius: 30px;
-    width: 30px;
-    height: 30px;
-}
-
-.github-text {
-    float: right;
-    color: white;
-    font-family: Verdana;
-    font-size: 20px;
-    padding-right: 20px;
-    padding-left: 3px;
-    text-decoration: none;
-    margin-left: auto;
-}
 
 /* TODO: Add breakpoints for 400px, 800px, 1200px, 1600px */

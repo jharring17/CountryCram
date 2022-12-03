@@ -7,6 +7,7 @@ let correctSound = document.getElementById('correct');
 let incorrectSound = document.getElementById('incorrect');
 let resultDiv = document.querySelector('.result');
 let score = document.querySelector('.result .score span');
+let levelHeader = document.getElementById('levelHeader');
 let questions
 
 // let continent = document.querySelector('.body')
@@ -28,7 +29,7 @@ function newGame(country) {
 
             flagArray.forEach(button => {
                 button.addEventListener('click', () => {
-                    if(clickCounter == 0){
+                    if (clickCounter == 0) {
                         let answer = questions[index].answer;
                         button.classList.add('selected');
                         //Increase Index 
@@ -37,23 +38,23 @@ function newGame(country) {
                         setTimeout(() => {
                             check(answer);
                         }, 500);
-                    
+
                         setTimeout(() => {
                             let next = document.getElementById('next')
-                            if (index < questionNum){
+                            if (index < questionNum) {
                                 next.classList.remove('hidden')
                             }
                         }, 1000);
                         clickCounter++
-   
-                    }else{
-                        
+
+                    } else {
+
                     }
-                   
+
                     setTimeout(() => {
                         getResult(questionNum);
                     }, 5000);
-                    
+
                 });
             });
         }
@@ -76,8 +77,8 @@ function addData(obj, count, country) {
 function showNotification(notification) {
     notificationEl.classList.add('notify');
     notificationEl.innerHTML = notification
-    setTimeout(function() {
-      notificationEl.classList.remove('notify');
+    setTimeout(function () {
+        notificationEl.classList.remove('notify');
     }, 1000);
 }
 
@@ -103,13 +104,14 @@ function getResult(count) {
     if (index === count) {
         flagOptions.style.display = 'none'
         flagImgDiv.style.display = 'none'
-        resultDiv.style.display = 'grid'
+        resultDiv.style.display = 'block'
         score.innerHTML = numOfCorrect;
+        levelHeader.style.display = 'none';
     }
 }
 
 function nextLevel(country) {
-    
+
     clickCounter -= 1
     flagImg.src = '';
     flagArray.forEach(button => {
@@ -120,5 +122,5 @@ function nextLevel(country) {
     addData(questions[index], questionNum, country);
     let next = document.getElementById('next')
     next.classList.add('hidden')
-    
+
 }
