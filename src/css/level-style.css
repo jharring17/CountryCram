@@ -104,6 +104,18 @@ button {
 button:hover {
     background-color: lightgrey;
     box-shadow: 10px 10px 5px lightblue;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:focus {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:active {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
 }
 
 button.selected {
@@ -149,3 +161,5 @@ button.showright {
 }
 
 /* TODO: Add breakpoints for 400px, 800px, 1200px, 1600px */
+/* @media only screen and (min-width: 1200px) {} */
+/* Max width, min width, display */
